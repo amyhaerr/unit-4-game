@@ -12,6 +12,10 @@ $(document).ready(function () {
 
     var counter = 0;
     console.log(counter)
+    var wins = 0;
+        console.log(wins);
+    var losses = 0;
+        console.log(losses);
 
     // expand our array to include 4 random numbers
 

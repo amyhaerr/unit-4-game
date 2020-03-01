@@ -1,0 +1,35 @@
+h1 {
+    font-size: 35px;
+    padding: 20px;
+    font-family: cursive;
+    color: antiquewhite;
+    background-color: blue;
+    margin-right: 1200px;
+}
+
+
+.directions-text {
+    background-color: black;    
+    color: antiquewhite;
+    margin-right: 900px;
+    font-size: 18px;
+}
+
+#score-container {
+    color: antiquewhite;
+}
+
+#random-number {
+    color: antiquewhite;
+}
+
+#total-score {
+    color: antiquewhite;
+}
+
+body {
+    line-height: 1;
+    background-image: url(../images/cave.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

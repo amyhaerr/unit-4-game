@@ -1,4 +1,6 @@
-$(document).ready(function() {
+//Worked with my study group on writing this 
+
+$(document).ready(function () {
 
     // set variable to target random number
 
@@ -16,22 +18,28 @@ $(document).ready(function() {
     var crystals = {
         crystalOne: {
             points: Math.floor(Math.random() * 12 + 1),
-            // image image: ""
+            
         },
         crystalTwo: {
             points: Math.floor(Math.random() * 12 + 1),
-            // image image: ""
-    },
+            
+        },
         crystalThree: {
-             points: Math.floor(Math.random() * 12 + 1),
-             // image image: ""
-    },
+            points: Math.floor(Math.random() * 12 + 1),
+            
+        },
         crystalFour: {
-             points: Math.floor(Math.random() * 12 + 1),
-             // image image: ""
-    },
+            points: Math.floor(Math.random() * 12 + 1),
+            
+        },
+    }
 
-    
+    for (var i in crystals) {
+        var imgCrystalOne = $("<img>"); 
+        var imgCrystalTwo = $("<img>"); 
+        var imgCrystalThree = $("<img>"); 
+        var imgCrystalFour = $("<img>"); 
 
+    }
 
-})
+});

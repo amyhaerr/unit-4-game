@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crystals Collector</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crystals Collector</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 
 <body>
-    <!-- Title -->
-    <h1>Crystals Collector!</h1>
+  <!-- Title -->
+  <h1>Crystals Collector!</h1>
 
-    <!-- Instructions for the game -->
+  <!-- Instructions for the game -->
   <div class="container">
-    
-    <P class="directions-text">You will give a random number at the start ofs the game.</P>
+
+    <P class="directions-text">You will give a random number at the start of the game.</P>
     <p class="directions-text">There are four crystals below. By clicking on a crystal,
       you will add a specific amount of points to your total score.</p>
     <p class="directions-text">You win the game by matching your total score to the random
       number generated.</p>
-    <p class="directions-text">You lose the game if your total score goes 
-        above the random number that was generated.</p>
+    <p class="directions-text">You lose the game if your total score goes
+      above the random number that was generated.</p>
     <p class="directions-text">The value of each crystal is hidden from you until you
       click on it.</p>
     <p class="directions-text">Each time the game starts, the game will change the values
@@ -30,13 +31,22 @@
   </div>
 
   <!-- Counter of wins and losses -->
- <div id="score-container">
-  <p id="wins-text">Wins: </p>
-  <p id="losses-text">Losses: </p>
-</div>
+  <div id="score-container">
+    <p id="wins-text">Wins: </p>
+    <p id="losses-text">Losses: </p>
+  </div>
 
   <!-- Random number to guess -->
-    <p id="random-number">Number to Guess</p>
+  <p id="random-number">Number to Guess: </p>
+
+  <!-- Crystals -->
+  <div class="gems">
+    <input type="image" src="../unit-4-game/assets/images/gem1.jpg" alt="">
+    <input type="image" src="../unit-4-game/assets/images/gem2.jpg" alt="">
+    <input type="image" src="../unit-4-game/assets/images/gem3.jpg" alt="">
+    <input type="image" src="../unit-4-game/assets/images/gem5.jpg" alt="">
+
+  </div>
 
   <!-- Total Score -->
   <p id="total-score">Your total score is: </p>
@@ -46,4 +56,5 @@
   <script src="../unit-4-game/assets/javascript/game.js"></script>
 
 </body>
+
 </html>

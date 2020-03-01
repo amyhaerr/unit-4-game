@@ -8,7 +8,7 @@ $(document).ready(function () {
     console.log(targetRanNumber)
 
     //shows random number on HTML 
-    $("#random-number").text(targetRanNumber);
+    $("#random-number").append(targetRanNumber);
 
     var counter = 0;
     console.log(counter)
@@ -16,6 +16,10 @@ $(document).ready(function () {
         console.log(wins);
     var losses = 0;
         console.log(losses);
+    
+      $('#wins-text').append(wins);
+        
+       $('#losses-text').append(losses);   
 
     // expand our array to include 4 random numbers
 
@@ -37,7 +41,7 @@ $(document).ready(function () {
             
         },
     }
-
+    console.log(crystals)
     for (var i in crystals) {
         var imgCrystalOne = $("<img>"); 
         var imgCrystalTwo = $("<img>"); 

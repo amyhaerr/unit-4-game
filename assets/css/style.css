@@ -7,24 +7,46 @@ h1 {
     margin-right: 1200px;
 }
 
+#box {
+    color: antiquewhite;
+    padding: 10px;
+    margin-right: 1300px;
+    border: grey 1px solid;
+    background-color: black;
+}
+
 
 .container {
     background-color: black;    
     color: antiquewhite;
     margin-right: 900px;
     font-size: 18px;
+    text-align: center;
+    border: grey 1px solid;
 }
 
 #score-container {
     color: antiquewhite;
-}
+    background-color: black;
+    margin-right: 1400px;
+    border: grey 1px solid;
+    }
 
 #random-number {
     color: antiquewhite;
+    padding: 20px;
+    background-color: black;
+    margin-right: 1350px;
+    border: grey 1px solid;
 }
 
 #total-score {
     color: antiquewhite;
+    background-color: black;
+    margin-right: 1300px;
+    border: grey 1px solid;
+    padding: 20px;
+
 }
 
 body {

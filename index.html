@@ -17,18 +17,22 @@
   <!-- Instructions for the game -->
   <div class="container">
 
-    <P class="directions-text">You will give a random number at the start of the game.</P>
-    <p class="directions-text">There are four crystals below. By clicking on a crystal,
+    <p class="directions-text">Here's how to play the game:</p>
+    <P class="directions-text">1. You will give a random number at the start of the game.</P>
+    <p class="directions-text">2. There are four crystals below. By clicking on a crystal,
       you will add a specific amount of points to your total score.</p>
-    <p class="directions-text">You win the game by matching your total score to the random
+    <p class="directions-text">3. You win the game by matching your total score to the random
       number generated.</p>
-    <p class="directions-text">You lose the game if your total score goes
+    <p class="directions-text">4. You lose the game if your total score goes
       above the random number that was generated.</p>
-    <p class="directions-text">The value of each crystal is hidden from you until you
+    <p class="directions-text">5. The value of each crystal is hidden from you until you
       click on it.</p>
-    <p class="directions-text">Each time the game starts, the game will change the values
+    <p class="directions-text">6. Each time the game starts, the game will change the values
       of each crystal.</p>
   </div>
+
+<!-- Random number to guess -->
+  <p id="random-number">Number to Get: </p>
 
   <!-- Counter of wins and losses -->
   <div id="score-container">
@@ -36,20 +40,22 @@
     <p id="losses-text">Losses: </p>
   </div>
 
-  <!-- Random number to guess -->
-  <p id="random-number">Number to Guess: </p>
+  
 
   <!-- Crystals -->
-  <div class="gems">
-    <input type="image" src="assets/images/gem1.jpg" alt="">
-    <input type="image" src="assets/images/gem2.jpg" alt="">
-    <input type="image" src="assets/images/gem3.jpg" alt="">
-    <input type="image" src="assets/images/gem5.jpg" alt="">
+  <div class="crystals">
+    <input id="white" type="image" src="assets/images/gem1.jpg" alt="">
+    <input id="blue" type="image" src="assets/images/gem2.jpg" alt="">
+    <input id="yellow" type="image" src="assets/images/gem3.jpg" alt="">
+    <input id="green" type="image" src="assets/images/gem5.jpg" alt="">
 
   </div>
 
   <!-- Total Score -->
-  <p id="total-score">Your total score is: </p>
+  <div>
+  <p id="box">Your total score is: </p>
+  <div id="total-score"></div>
+</div>
 
   <!-- jQuery and JavaScript links -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

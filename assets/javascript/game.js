@@ -1,4 +1,5 @@
-//Worked with my study group on writing this 
+//Worked with my study group on writing this: Kortnie Heidel, Brooke Guarienti,
+// John Pendergrass, and Haylee McLemore 
 
 $(document).ready(function () {
 

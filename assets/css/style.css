@@ -1,56 +1,47 @@
-h1 {
+h3 {
     font-size: 35px;
     padding: 20px;
     font-family: cursive;
     color: antiquewhite;
-    background-color: blue;
-    margin-right: 1200px;
+    background-color: black;
+    text-align: center;
+    
 }
 
 #box {
     color: antiquewhite;
     padding: 10px;
-    margin-right: 1300px;
     border: grey 1px solid;
     background-color: black;
 }
 
 
-.container {
+.list-item{
     background-color: black;    
-    color: antiquewhite;
-    margin-right: 900px;
+    color:antiquewhite;
     font-size: 18px;
-    text-align: center;
     border: grey 1px solid;
+ 
 }
 
-#score-container {
+h5 {
     color: antiquewhite;
     background-color: black;
-    margin-right: 1400px;
     border: grey 1px solid;
-    /* float: left;
-	width: 15%;
-    height: 60px;
-    position: static; */
     }
 
 #random-number {
     color: antiquewhite;
     padding: 20px;
     background-color: black;
-    margin-right: 1350px;
     border: grey 1px solid;
-    /* float: left;
-	width: 15%;
-	height: 60px; */
+    
 }
 
 #total-score {
     color: antiquewhite;
     background-color: black;
-    margin-right: 1300px;
+    text-align: center;
     border: grey 1px solid;
     padding: 20px;
 

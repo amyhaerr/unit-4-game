@@ -2,45 +2,44 @@ h3 {
     font-size: 35px;
     padding: 20px;
     font-family: cursive;
-    color: antiquewhite;
-    background-color: black;
+    color: black;
+    background-color: pink;
     text-align: center;
     
 }
 
 #box {
-    color: antiquewhite;
+    color: black;
     padding: 10px;
-    border: grey 1px solid;
-    background-color: black;
+   
+    
 }
 
 
 .list-item{
-    background-color: black;    
-    color:antiquewhite;
+       
+    color: black;
     font-size: 18px;
-    border: grey 1px solid;
+    
  
 }
 
 h5 {
-    color: antiquewhite;
-    background-color: black;
-    border: grey 1px solid;
+    color: black;
+
+   
     }
 
 #random-number {
-    color: antiquewhite;
+    color: black;
     padding: 20px;
-    background-color: black;
+    
     border: grey 1px solid;
     
 }
 
 #total-score {
-    color: antiquewhite;
-    background-color: black;
+    color: black;
     text-align: center;
     border: grey 1px solid;
     padding: 20px;
@@ -49,8 +48,13 @@ h5 {
 
 body {
     line-height: 1;
-    background-image: url(../images/cave.jpg);
+    background-image: url(../images/pink.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#numberToGet {
+    
+    color: black;
+    
+}

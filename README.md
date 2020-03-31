@@ -3,7 +3,7 @@
 https://amyhaerr.github.io/unit-4-game/
 
 
-<img src="assets/images/crystalcollector.jpg>
+<img src="assets/images/crystalcollector.jpg">
 
 
 # Objective:

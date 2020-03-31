@@ -1,6 +1,16 @@
-/* # unit-4-game
+## Crystals Collector Game
 
-Crystals Collector Game
+https://amyhaerr.github.io/unit-4-game/
+
+
+<img src="assets/images/crystalcollector.jpg>
+
+
+# Objective:
+To create a guessing game in which the user is shown only the number to guess and the numbers selected that are hidden by crystals.
+
+
+# Directions:
 
 1. This is a guessing game using numbers.
 2. The player will guess with the unknown numbers.
@@ -18,12 +28,20 @@ Crystals Collector Game
    use refresh on the page.
 
 
+# Author:
+Amy Haerr
+
+# Collaborated with:
+1. John Pendergrass
+2. Kortnie Heidel
 
 
 
 
 
-*/
+
+
+
 
 
 

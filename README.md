@@ -27,6 +27,12 @@ To create a guessing game in which the user is shown only the number to guess an
 8. The game will then reset, displaying wins/losses without having  to  
    use refresh on the page.
 
+## Technical Aspects:
+
+1. Description of Problem:
+    - To make a number guessing game using HTML, CSS, and JavaScript
+2. How it was solved:
+    - After countless hours of research, reviews of previous activities, study groups, tutor support, and TA support, I arrived at a working number guessing game. 
 
 # Author:
 Amy Haerr
